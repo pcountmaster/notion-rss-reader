@@ -2,7 +2,7 @@ name: Feed Cron
 
 on:
   schedule:
-    - cron: "0 * * * *" # UTC
+    - cron: "30 5,17 * * *" # UTC
   workflow_dispatch:
 
 jobs:
